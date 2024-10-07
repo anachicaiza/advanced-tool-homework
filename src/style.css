@@ -103,3 +103,21 @@ html {
   margin: 0;
   padding: 0;
 }
+
+@media (max-width: 600px) {
+  img {
+    display: none;
+  }
+
+  h2,
+  p {
+    text-align: center;
+  }
+
+  .app-btn {
+    display: block;
+    max-width: 200px;
+    margin: 0 150px;
+    text-align: center;
+  }
+}
