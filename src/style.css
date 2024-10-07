@@ -116,8 +116,13 @@ html {
 
   .app-btn {
     display: block;
-    max-width: 200px;
-    margin: 0 150px;
+    margin: 0 80px;
     text-align: center;
+  }
+
+  .name {
+    font-size: 70px;
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
 }
